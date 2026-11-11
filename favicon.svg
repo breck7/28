@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="The 28th Amendment">
+ <rect width="64" height="64" rx="14" fill="#1e2a4a"/>
+ <rect x="1.25" y="1.25" width="61.5" height="61.5" rx="12.75" fill="none" stroke="#c4a46a" stroke-width="1.5"/>
+ <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f3eee3">28</text>
+</svg>

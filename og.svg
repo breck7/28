@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="ogTitle ogDesc">
+ <title id="ogTitle">The 28th Amendment</title>
+ <desc id="ogDesc">A grassroots campaign for a 28th Amendment to the Constitution of the United States.</desc>
+ <rect width="1200" height="630" fill="#f3eee3"/>
+ <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#1e2a4a" stroke-width="2"/>
+ <rect x="56" y="56" width="1088" height="518" fill="none" stroke="#c4a46a" stroke-width="1"/>
+ <text x="600" y="200" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" letter-spacing="8" fill="#8f2d2a">A GRASSROOTS CAMPAIGN</text>
+ <text x="600" y="390" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="400" fill="#1e2a4a">The 28th Amendment</text>
+ <text x="600" y="500" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#6a655c">28.breck.lol</text>
+</svg>

@@ -1,0 +1,105 @@
+// A grassroots campaign site for a 28th Amendment.
+// Build with: scroll build
+
+buildHtml
+permalink index.html
+title The 28th Amendment
+description A grassroots campaign for a 28th Amendment to the Constitution of the United States: The right of the people to copy shall not be infringed.
+keywords 28th amendment, constitution, grassroots, campaign, copy, copyright, patent, trademark
+baseUrl https://28.breck.lol/
+canonicalUrl https://28.breck.lol/
+editBaseUrl https://github.com/breck7/28/blob/main/
+openGraphImage og.png
+favicon favicon.svg
+metaTags
+
+html
+ <header class="site-header">
+  <a class="mark" href="index.html">28</a>
+  <nav>
+   <a href="#why">Why</a>
+   <a href="#text">The Text</a>
+   <a href="#help">How to Help</a>
+   <a href="#faq">FAQ</a>
+  </nav>
+ </header>
+ <main>
+  <section class="hero">
+   <p class="eyebrow">A grassroots campaign</p>
+   <h1>The 28th Amendment</h1>
+   <p class="lede">A campaign to add a 28th Amendment to the Constitution of the United States. The proposed text is: The right of the people to copy shall not be infringed. Read more at <a href="https://pleasecopy.breck.lol/">pleasecopy.breck.lol</a>.</p>
+  </section>
+  <section class="band" id="text">
+   <h2>The Text</h2>
+   <div class="document">
+    <p class="doc-kicker">Article XXVIII</p>
+    <p class="amendment">The right of the people to copy shall not be infringed.</p>
+   </div>
+  </section>
+  <section class="band" id="why">
+   <h2>Why</h2>
+   <p>If you've thought deeply about patents, copyrights, and trademarks, you've probably figured out that they are bad for progress and deeply unjust.</p>
+   <p>This campaign is organized around a simple long-term vision of passing a new Amendment to the U.S. Constitution ending patents, copyrights, and trademarks once and for all.</p>
+   <p>The bigger problem is this debate is not being had. A stronger and more logical place to have the debate is upstream of that: whether we should have these systems at all.</p>
+   <p>Read more at <a href="https://pleasecopy.breck.lol/">pleasecopy.breck.lol</a>.</p>
+  </section>
+  <section class="band" id="help">
+   <h2>How to Help</h2>
+   <p>Follow Breck on X: <a href="https://x.com/breckyunits">@breckyunits</a>.</p>
+  </section>
+  <section class="band" id="faq">
+   <h2>FAQ</h2>
+   <div class="faq">
+    <h3>What is the 28th Amendment?</h3>
+    <p>There is not one yet. This campaign proposes one: The right of the people to copy shall not be infringed. The aim is ending patents, copyrights, and trademarks once and for all.</p>
+    <h3>How is the Constitution amended?</h3>
+    <p>Article V of the Constitution provides two ways to propose an amendment: a two-thirds vote of both houses of Congress, or a convention called by two-thirds of the state legislatures. An amendment is added only after ratification by three-fourths of the states, either in their legislatures or in state conventions, as Congress may direct.</p>
+    <h3>Who is behind this?</h3>
+    <p>This site is being stood up by Breck Yunits. Follow him on X at <a href="https://x.com/breckyunits">@breckyunits</a>.</p>
+   </div>
+  </section>
+ </main>
+ <footer class="site-footer">
+  <a class="mark" href="index.html">28</a>
+  <p>A grassroots campaign at 28.breck.lol</p>
+ </footer>
+
+css
+ :root {
+  --paper: #f3eee3;
+  --ink: #1c1a16;
+  --muted: #6a655c;
+  --line: rgba(28, 26, 22, .16);
+  --navy: #1e2a4a;
+  --seal: #8f2d2a;
+  --gold: #c4a46a;
+  color-scheme: light;
+  font-family: Georgia, "Times New Roman", serif;
+ }
+ * { box-sizing: border-box; }
+ body { margin: 0; color: var(--ink); background: var(--paper); }
+ a { color: inherit; text-underline-offset: 4px; }
+ .site-header, main, .site-footer { display: block; max-width: 760px; margin: auto; padding-left: 24px; padding-right: 24px; }
+ .site-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+ .mark { text-decoration: none; font: 700 22px/1 Georgia, "Times New Roman", serif; letter-spacing: -.04em; color: var(--navy); }
+ .site-header nav { display: flex; flex-wrap: wrap; gap: 18px; }
+ .site-header nav a { text-decoration: none; color: var(--muted); text-transform: uppercase; font: 700 10px/1 Arial, sans-serif; letter-spacing: .13em; }
+ .site-header nav a:hover, .site-header nav a:focus-visible { color: var(--ink); text-decoration: underline; }
+ .hero { padding: 80px 0 72px; }
+ .eyebrow { margin: 0 0 22px; color: var(--seal); text-transform: uppercase; font: 700 10px/1 Arial, sans-serif; letter-spacing: .2em; }
+ h1 { max-width: 14ch; margin: 0 0 28px; font-size: clamp(44px, 9vw, 92px); font-weight: 400; line-height: .95; letter-spacing: -.05em; text-wrap: balance; color: var(--navy); }
+ .lede { max-width: 620px; margin: 0; color: var(--muted); font-size: clamp(18px, 2.2vw, 23px); line-height: 1.5; }
+ .band { padding: 56px 0; border-top: 1px solid var(--line); }
+ h2 { margin: 0 0 28px; font-size: clamp(26px, 4vw, 40px); font-weight: 400; letter-spacing: -.03em; color: var(--navy); }
+ .band > p { max-width: 620px; margin: 0 0 18px; font-size: clamp(17px, 2vw, 20px); line-height: 1.55; }
+ .band > p:last-child { margin-bottom: 0; }
+ .document { max-width: 620px; padding: 36px 32px; border: 1px solid var(--navy); box-shadow: inset 0 0 0 4px var(--paper), inset 0 0 0 5px var(--gold); }
+ .doc-kicker { margin: 0 0 20px; text-align: center; text-transform: uppercase; font: 700 11px/1 Arial, sans-serif; letter-spacing: .18em; color: var(--navy); }
+ .amendment { margin: 0; text-align: center; font-size: clamp(22px, 3.2vw, 32px); line-height: 1.35; letter-spacing: -.02em; color: var(--navy); text-wrap: balance; }
+ .faq h3 { margin: 28px 0 8px; font-size: clamp(18px, 2.2vw, 22px); font-weight: 400; letter-spacing: -.02em; }
+ .faq h3:first-child { margin-top: 0; }
+ .faq p { max-width: 620px; margin: 0; color: var(--ink); font-size: clamp(17px, 2vw, 20px); line-height: 1.55; }
+ .site-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding-top: 26px; padding-bottom: 40px; border-top: 1px solid var(--line); color: var(--muted); font: 12px/1.5 Arial, sans-serif; }
+ .site-footer p { margin: 0; }
+ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+ @media (max-width: 560px) { .hero { padding: 48px 0 44px; } .band { padding: 40px 0; } .document { padding: 24px 18px; } }
